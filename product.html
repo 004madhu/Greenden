@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Tailwind CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 md:pd-10 flex justify-between shadow-xl sticky top-0 h-16 z-50" style="height: 50px;">
+        <h1 class="text-2xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Products -->
+    <section class="p-4 text-center mt-20">
+        <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+        <input type="text" placeholder="Search for a Product..." class="border border-black mt-5 p-2"
+            style="width: 80%;">
+        <div class="grid md:grid-cols-4 grid-cols-2 mt-5 gap-5 h-500 w-300">
+            <div>
+                <img src="image/product img8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Button Rose Plant</h1>
+                <p>Rs.40</p>
+            </div>
+            <div>
+                <img src="./image/1_Image 1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Red Hibiscus Plant</h1>
+                <p>Rs.70</p>
+            </div>
+            <div>
+                <img src="image/product img2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Jasmine Plant</h1>
+                <p>Rs.100</p>
+            </div>
+            <div>
+                <img src="image/product img3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lilly Plant</h1>
+                <p>Rs.120</p>
+            </div>
+            <div>
+                <img src="image/product img4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Sun Flower Plant</h1>
+                <p>Rs.90</p>
+            </div>
+            <div>
+                <img src="image/product img5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Red Rose Plant</h1>
+                <p>Rs.150</p>
+            </div>
+            <div>
+                <img src="image/product img6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Pink Hibiscus Plant</h1>
+                <p>Rs.130</p>
+            </div>
+            <div>
+                <img src="image/product img7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Yellow Rose Plant</h1>
+                <p>Rs.120</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest</p>
+        <p>@ 2021 Greenday.com</p>
+    </section>
+</body>
+
+</html>
